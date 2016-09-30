@@ -5,7 +5,7 @@ import Foundation
 class Item: Equatable, CustomDebugStringConvertible {
     var name = ""
     var priceInCents = 0
-    var debugDescription: String { return name }
+    var debugDescription: String {return name}
     
     init(name: String, priceInCents: Int) {
         self.name = name
